@@ -8,15 +8,15 @@ with open('data/db.json', encoding='utf-8') as data_file:
 class _login:
 	def checkUserLogin(self, login, pwd):
 		if users != []:
-			j = 0
+			i = 0
 			res = False
-			while j < len(users['users']):
-				if users['users'][j][1] == login:
-					if users['users'][j][2] == pwd:
+			while i < len(users['users']):
+				if users['users'][i][1] == login:
+					if users['users'][i][2] == pwd:
 						res = True
 					else:
 						res = False
-				j += 1
+				i += 1
 			if res == True:
 				return "ok"
 			else:

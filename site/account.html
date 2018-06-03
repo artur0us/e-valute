@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OBS's User Account</title>
+    <title>Evalute's User Account</title>
 
     <!-- Bootstrap core CSS -->
     <link href="libs/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -33,54 +33,35 @@
   <body style="background-color: #d6f5d7;">
 
     <div class="container">
-      <div class="masthead">
-        <h3 class="text-muted">OneBroker's System</h3>
-        <nav>
-          <ul class="nav nav-justified">
-            <li class="active"><a href="#">Аккаунт</a></li>
-            <li><a href="/">Главная</a></li>
-            <li><a id="giveMeMoney" style="cursor: pointer;">Пополнение счёта</a></li>
-            <li><a href="#">Снятие со счёта</a></li>
-            <li><a href="#">Настройки</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
 
       <!-- Jumbotron -->
       <div class="jumbotron" id="hello_block">
-        <h1>Добро пожаловать!</h1>
+        <h1>Ваш Evalute-счёт:</h1>
         <p class="lead">Вы вошли в свой аккаунт, теперь Вы можете выполнять какие-либо действия над своим счётом.</p>
-        <p><a class="btn btn-lg btn-success" role="button" id="open_myaccount_block_btn">Открыть мой счёт</a></p>
+          <br>
+          <label for="myaccount" id="myaccount" style="font-size: 20px">Счёт: </label>
+          <br>
+          <label for="curr_day" id="curr_day" style="font-size: 20px">День: </label>
+          <br>
+          <label for="rate_dr" id="rate_dr" style="font-size: 20px">Курс USD к RUB: </label>
+          <br>
+          <label for="rate_eu" id="rate_eu" style="font-size: 20px">Курс EL к USD: </label>
+          <br>
+          <label for="evakey" id="evakey" style="font-size: 20px">Ваш Evakey: </label>
+        <p><a class="btn btn-lg btn-success" role="button" id="get_money">Пополнить</a></p>
+        <p><a class="btn btn-lg btn-success" role="button" id="send_money" style="background-color: #aa5cb8; border-color: #aa5cb8;">Перевести</a></p>
+          <br><br>
+        <p><a class="btn btn-lg btn-success" role="button" id="go_next" style="background-color: #c52424; border-color: #c52424;">Следующий день</a></p>
       </div>
-
       <br><br>
       <div class="panel panel-primary" id="myaccount_block">
-        <div class="panel-heading" id="account_id">Межбанковский счёт №0</div>
+        <div class="panel-heading" id="account_id">Ваш счёт: </div>
         <div class="panel-body">
           <center>
-            <img src="img/user.png" width="200" height="200" class="img-responsive" alt="Человек">
-            <h4 id="user_login"></h4>
-            <span class="text-muted">Новенький</span>
-            <br><br>
-            <label for="allmoney_count">Количество средств на счету:</label>
-            <input type="text" class="form-control" id="allmoney_count" disabled>
-            <br>
-            <label for="expiration_time">Срок годности счёта:</label>
-            <input type="text" class="form-control" id="expiration_date" disabled>
-            <br>
-            <label for="current_val">Текущая валюта счёта:</label>
-            <input type="text" class="form-control" id="current_val" disabled>
-            <br><br>
-            <button type="button" class="btn btn-primary" id="change_valute">Перевести валюту</button>
+              <!-- -->
           </center>
         </div>
       </div>
-
-      <!-- Site footer -->
-      <footer class="footer">
-        <p>*OneBroker's System -- 2k16*</p>
-      </footer>
 
     </div> <!-- /container -->
 
