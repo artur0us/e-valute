@@ -1,0 +1,6 @@
+C:\CurrencyGenerator\CurrencyGenerator\bin\Debug\CurrencyGenerator.exe.config
+C:\CurrencyGenerator\CurrencyGenerator\bin\Debug\CurrencyGenerator.exe
+C:\CurrencyGenerator\CurrencyGenerator\bin\Debug\CurrencyGenerator.pdb
+C:\CurrencyGenerator\CurrencyGenerator\obj\Debug\CurrencyGenerator.csprojResolveAssemblyReference.cache
+C:\CurrencyGenerator\CurrencyGenerator\obj\Debug\CurrencyGenerator.exe
+C:\CurrencyGenerator\CurrencyGenerator\obj\Debug\CurrencyGenerator.pdb
